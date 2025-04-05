@@ -1,6 +1,6 @@
 function onesDigit(n) {
 	let size = n.length;
-	return Number(n[size-1]);
+	return n[size-1];
 }
 
 // Do not change the code below
