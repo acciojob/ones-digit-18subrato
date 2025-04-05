@@ -1,5 +1,6 @@
 function onesDigit(n) {
-  // your code here
+	let size = n.length;
+	return Number(n.at(size-1));
 }
 
 // Do not change the code below
