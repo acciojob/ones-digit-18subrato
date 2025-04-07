@@ -1,11 +1,12 @@
 function onesDigit(n) {
-	n = String(n);
-	n = n.trim();
-	let size = n.length;
-	return Number(n[size-1]);
+	let str = String(n);
+	str = str.trim();
+	let val = str.at(-1);
+	val = Number(val);
+	return val;
 }
 
 // Do not change the code below
 
-// const n = prompt("Enter Number:");
+const n = prompt("Enter Number:");
 alert(onesDigit(n));
